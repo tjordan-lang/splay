@@ -72,6 +72,10 @@ python -m unittest -v
 
 The unit tests use fake Sonos and TIDAL clients and do not control real speakers.
 
+## Acknowledgements
+
+Splay uses [SoCo](https://github.com/SoCo/SoCo), the MIT-licensed Python Sonos controller created by Rahim Sonawalla and maintained by the SoCo contributors. It also uses [tidalapi](https://github.com/EbbLabs/python-tidal), an unofficial TIDAL API client licensed under LGPL-3.0-or-later. Both are installed as separate dependencies and remain under their respective licenses.
+
 ## Privacy and third-party services
 
 Splay has no telemetry and does not operate a hosted service. Credentials and OAuth tokens remain on the computer running Splay. Network requests go to the local Sonos system and TIDAL.
