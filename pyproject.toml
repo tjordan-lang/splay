@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "splay-sonos"
+version = "0.1.0"
+description = "A small interactive TIDAL remote for Sonos speakers on macOS."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "Tyrone Jordan" }]
+dependencies = [
+    "soco>=0.31.2,<1",
+    "tidalapi>=0.8.11,<1",
+]
+
+[project.urls]
+Homepage = "https://github.com/tjordan-lang/splay"
+Issues = "https://github.com/tjordan-lang/splay/issues"
+
+[project.scripts]
+splay = "splay:main"
+
+[tool.setuptools]
+py-modules = ["splay"]
