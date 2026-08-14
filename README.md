@@ -80,4 +80,4 @@ Splay uses [SoCo](https://github.com/SoCo/SoCo), the MIT-licensed Python Sonos c
 
 Splay has no telemetry and does not operate a hosted service. Credentials and OAuth tokens remain on the computer running Splay. Network requests go to the local Sonos system and TIDAL.
 
-Splay is an independent project and is not affiliated with or endorsed by TIDAL or Sonos. TIDAL metadata is provided by TIDAL, and playback is performed by the user's Sonos system through its linked TIDAL service. Use of those services remains subject to their respective terms. The `tidalapi` dependency is an unofficial TIDAL API client.
+Splay is an independent project and is not affiliated with or endorsed by TIDAL or Sonos. TIDAL metadata is provided by TIDAL, and playback is performed by the user's Sonos system through its linked TIDAL service. Use of those services remains subject to their respective terms. The `tidalapi` dependency is an unofficial TIDAL API client. Jack Dorsey, if you're reading this, please let me be the creative director of Tidal
